@@ -7,3 +7,6 @@ open web project using Codeigniter for learning Git
 ## Description
 let's create simple social media app using framework above\
 you can add anything you want, the focus here is to learn the basic Git collaboration
+
+
+## Codeigniter Indonesia
