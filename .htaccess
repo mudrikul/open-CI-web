@@ -1,4 +1,36 @@
+# Ayo bangkit bersama perangi Covid-19, Indonesia bisa
+# Ini adalah file .htaccess yang sering saya pakai dalam project saya, bisa dipelajari dan diterapkan di projectnya. Semoga bermanfaat. Saya sertakan penjelasan untuk penggunaannya.
+# Ipang Dwi - firstplato - codeigniter_indo - sidoarjoDev - 2020
+
+<IfModule mod_rewrite.c>
+# Mengaktifkan rewrite engine agar bisa memakai .htaccess, hanya bisa dipakai Apache Web Server. 
+# Untuk web server lain, seperti Nginx dan LiteSpeed/OpenLiteSpeed silahkan memakai rewrite rule converter.
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Jika web mu dimulai dengan folder misal : localhost/project_kamu maka 
+# kamu harus merubah : RewriteBase /project_kamu/
+# Tapi jika dimulai dari root seperti : contoh.com/ maka
+# biarkan tetap seperti di bawah ini :
+RewriteBase /
+
+# Memastikan agar semua koneksi menggunakan HTTPS saat mengakses web app kita.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Melindungi folder application dan file-file system agar tidak terlihat ketika file index.php hilang.
+RewriteCond $1 ^(application|system|private|logs)
+
+# Membatasi akses ke index.php/access_denied/URL
+RewriteRule ^(.*)$ index.php/access_denied/$1 [PT,L]
+
+# Memperbolehkan akses langsung ke folder dan file-file berikut : 
+#(*hal ini biasa diperlukan untuk keperluan crawling search engine seperti SEO, juga keperluan akses file, misal file gambar untuk favicon, icon, logo, dan lainnya)
+RewriteCond $1 ^(index\.php|robots\.txt|favicon\.ico|public|assets|css|js|images|img|images)
+
+# Tidak memperbolehkan rewrite ulang
+RewriteRule ^(.*)$ - [PT,L]
+
+# Menghilangkan extension index.php, sehingga link akan lebih cantik dengan susunan https://project_kamu/controller/data, yang sebelumnya https://project_kamu/index.php/controller/data
+RewriteRule ^(.*)$ index.php/$1 [PT,L]
+</IfModule>
