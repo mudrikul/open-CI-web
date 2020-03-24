@@ -11,7 +11,7 @@ RewriteEngine On
 # kamu harus merubah : RewriteBase /project_kamu/
 # Tapi jika dimulai dari root seperti : contoh.com/ maka
 # biarkan tetap seperti di bawah ini :
-RewriteBase /
+RewriteBase /open-CI-web
 
 # Memastikan agar semua koneksi menggunakan HTTPS saat mengakses web app kita.
 RewriteCond %{HTTPS} off
