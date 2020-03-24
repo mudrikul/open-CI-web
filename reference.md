@@ -1,5 +1,6 @@
 ###Tutorial video youtube 
-1. https://youtu.be/Mc-PBV-ymqk
+1. https://youtu.be/Mc-PBV-ymqk : Cara melaukan clone, fork, commit, dan pull request dengan Github Desktop.
+2. https://youtu.be/z7jPY5OFdkU : Cara setup custom .htaccess.
 
 ###Tutorial artikel
 1. ..
