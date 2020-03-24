@@ -10,7 +10,7 @@ let's create simple social media app using framework above\
 you can add anything you want, the focus here is to learn the basic Git collaboration
 
 ## Tutorial References
-> reference.txt
+> reference..md
 
 ## Codeigniter Indonesia
 Feel free to reach us on Facebook : Codeigniter Indonesia
@@ -29,7 +29,7 @@ Ayo buat aplikasi sosmed sederhana mempergunakan framework CodeIgniter
 Kamu bisa menambahkan apa pun di dalamnya, tujuan utamanya adalah untuk memahami dasar cara bekerja sama dengan Git.
 
 ## Tutorial
-> reference.txt
+> reference..md
 
 ## Codeigniter Indonesia
 Temukan kami di Facebook : Codeigniter Indonesia
