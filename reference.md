@@ -1,8 +1,5 @@
 ###Tutorial video youtube 
-1. <iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://youtu.be/Mc-PBV-ymqk?autoplay=1&origin=http://example.com"
-  frameborder="0"></iframe>
-
+1. https://youtu.be/Mc-PBV-ymqk
 
 ###Tutorial artikel
 1. ..
