@@ -1,0 +1,2 @@
+# Folder ini dipakai untuk menyimpan file image atau gambar, untuk keperluan repo dan dokumentasi.
+# CodeIgniter Indonesia - 2020
