@@ -17,4 +17,4 @@ Perhatikan baik-baik gambar di atas. Merah adalah repo yang diupdate (hasil fork
 
 OK, setelah repo fork kita terupdate, selanjutnya, saat kita ingin melakukan PR pada base-repo, agar bisa berkontribusi. Lakukan permintaan PR dengan cara sebaliknya, sebagai berikut. *Jangan lupa posisi repo fork kita harus "ahead" (di depan / lebih kekinian) dari base-repo.
 
-
+<img src="https://raw.githubusercontent.com/mudrikul/open-CI-web/master/img/pr.JPG">
