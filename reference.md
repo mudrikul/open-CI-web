@@ -15,4 +15,6 @@ Maka lakukan dulu pull dari "base-repo" ke repo kita. Kenapa?? Karena posisi rep
 
 Perhatikan baik-baik gambar di atas. Merah adalah repo yang diupdate (hasil fork), dan biru adalah repo pemberi update. Artinya posisi repo yang kekinian harus ada di sebelah kanan. Semua repo, baik base-repo, maupun siapa pun yang melakukan fork, akan muncul repo nya di menu dropdown merah dan biru.
 
-OK, setelah repo fork kita terupdate, selanjutnya, saat kita ingin melakukan PR pada base-repo, agar bisa berkontribusi. Lakukan permintaan PR dengan cara sebaliknya, sebagai berikut.
+OK, setelah repo fork kita terupdate, selanjutnya, saat kita ingin melakukan PR pada base-repo, agar bisa berkontribusi. Lakukan permintaan PR dengan cara sebaliknya, sebagai berikut. *Jangan lupa posisi repo fork kita harus "ahead" (di depan / lebih kekinian) dari base-repo.
+
+
