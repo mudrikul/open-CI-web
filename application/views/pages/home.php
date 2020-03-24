@@ -23,5 +23,6 @@
             <span class="badge badge-pill badge-primary">User Comment</span>
             <span class="badge badge-pill badge-success">Basic CRUD</span>
         </p>
+        <p>Membuat aplikasi sosial media sederhana</p>
     </div>
 </div>
