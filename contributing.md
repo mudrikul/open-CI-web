@@ -1,6 +1,6 @@
 # Contributing to CodeIgniter
 
-CodeIgniter is a community driven project and accepts contributions of code and documentation from the community. These contributions are made in the form of Issues or [Pull Requests](http://help.github.com/send-pull-requests/) on the [CodeIgniter repository](https://github.com/bcit-ci/CodeIgniter) on GitHub.
+Open CI Web is a community driven project and accepts contributions of code and documentation from the community. These contributions are made in the form of Issues or [Pull Requests](http://help.github.com/send-pull-requests/) on the [CodeIgniter repository](https://github.com/bcit-ci/CodeIgniter) on GitHub.
 
 Issues are a quick way to point out a bug. If you find a bug or documentation error in CodeIgniter then please check a few things first:
 
@@ -56,8 +56,6 @@ This will sign your commits with the information setup in your git config, e.g.
 
 If you are using [Tower](http://www.git-tower.com/) there is a "Sign-Off" checkbox in the commit window. You could even alias git commit to use the `-s` flag so you don’t have to think about it.
 
-By signing your work in this manner, you certify to a "Developer's Certificate of Origin". The current version of this certificate is in the `DCO.txt` file in the root of this repository.
-
 ## How-to Guide
 
 There are two ways to make changes, the easy way and the hard way. Either way you will need to [create a GitHub account](https://github.com/signup/free).
@@ -82,12 +80,12 @@ Once the Reactor Engineer handling your pull request is happy with it they will 
 
 ### Keeping your fork up-to-date
 
-Unlike systems like Subversion, Git can have multiple remotes. A remote is the name for a URL of a Git repository. By default your fork will have a remote named "origin" which points to your fork, but you can add another remote named "codeigniter" which points to `git://github.com/bcit-ci/CodeIgniter.git`. This is a read-only remote but you can pull from this develop branch to update your own.
+Unlike systems like Subversion, Git can have multiple remotes. A remote is the name for a URL of a Git repository. By default your fork will have a remote named "origin" which points to your fork, but you can add another remote named "codeigniter" which points to `git://github.com/mudrikul/open-CI-web`. This is a read-only remote but you can pull from this develop branch to update your own.
 
 If you are using command-line you can do the following:
 
-1. `git remote add codeigniter git://github.com/bcit-ci/CodeIgniter.git`
-2. `git pull codeigniter develop`
-3. `git push origin develop`
+1. `git remote add codeigniter git://github.com/mudrikul/open-CI-web`
+2. `git pull origin master`
+3. `git push origin master`
 
 Now your fork is up to date. This should be done regularly, or before you send a pull request at least.
