@@ -14,7 +14,8 @@
     <!-- Botstrap CSS File -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Material Colors -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/colors.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/colors.css?v=') ?><?= rand(1000000, 9999999); ?>">
+    <link rel="shortcut icon" href="<?= base_url('assets/img/favicon.svg?v=') ?><?= rand(1000000, 9999999); ?>">
     <title><?= $title ?></title>
 </head>
 
