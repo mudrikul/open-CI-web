@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.333331in" height="0.333331in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 333 333"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="806" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Couture">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="O" horiz-adv-x="778"><path d="M756.99 360c0,205 -166.99,370 -370,370 -203.98,0 -368.98,-165 -368.98,-370 0,-204.005 165,-369.005 368.98,-369.005 203.01,0 370,165 370,369.005zm-370 219.005c119.005,0 216.02,-100 216.02,-219.005 0,-119.005 -97.0149,-218.01 -216.02,-218.01 -118.98,0 -217.985,99.005 -217.985,218.01 0,119.005 99.005,219.005 217.985,219.005z"/></glyph>
+   <glyph unicode="I" horiz-adv-x="295"><path d="M69.005 0l156.99 0 0 714.005 -156.99 0 0 -714.005z"/></glyph>
+   <glyph unicode="C" horiz-adv-x="740"><path d="M713.01 190.995c-64.005,29.005 -66.0199,33.01 -134.005,68.01 -35.995,-68.01 -105.995,-110.995 -185.995,-110.995 -117.015,0 -212.015,95 -212.015,211.99 0,115.995 95,211.99 212.015,211.99 76.99,0 145,-41.99 180,-102.985 67.9851,32.9851 72.9851,35.995 133.98,67.9851 -60.995,109.005 -176.99,185 -313.98,185 -200,0 -362.015,-163.98 -362.015,-361.99 0,-200 162.015,-361.99 362.015,-361.99 140.995,0 258.98,77.9851 320,192.985z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Couture";src:url("#FontID0") format(svg)}
+    .str0 {stroke:#E6E6E6;stroke-width:6.94488}
+    .fil1 {fill:#3F51B5}
+    .fil0 {fill:white}
+    .fnt0 {font-weight:bold;font-size:158.268px;font-family:'Couture'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" width="333" height="333" rx="57" ry="57"/>
+  <text x="27" y="224"  class="fil1 fnt0">OCI</text>
+ </g>
+</svg>
