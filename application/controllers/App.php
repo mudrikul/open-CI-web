@@ -14,6 +14,24 @@ class App extends CI_Controller
         ];
         $this->load->view('theme/template', $data);
     }
+
+    public function login()
+    {
+        $data = [
+            'title' => 'Login',
+            'content' => 'pages/login_page'
+        ];
+        $this->load->view('theme/template', $data);
+    }
+
+    public function register()
+    {
+        $data = [
+            'title' => 'Daftar Akun',
+            'content' => 'pages/register_page'
+        ];
+        $this->load->view('theme/template', $data);
+    }
 }
 
 /* End of file App.php */
